@@ -3,7 +3,7 @@
 	--light-blue: #b4d0e7;
 	--black: #000000;
 	--white: #ffffff;
-}
+      }
 
 * {
 	box-sizing: border-box;
@@ -13,19 +13,33 @@
 
   html {
 	font-family: 'Open Sans', sans-serif;
-}
+       }
 
 a {
 	color: currentColor;
 	text-decoration: none;
   }
 
-  ul,ol {
+ul,ol {
     list-style: none;
         }
 
-  img {
+img {
    max-width: 100%;
       }
 
 /*LAYOUT/*
+.container-completo{
+             max-width: 100%;
+             margin: 0 auto;
+                }
+
+.container {
+            max-width:1200px;
+            margin: 0 auto;
+            }
+
+.container-piccolo{
+            max-width: 1000px;
+            margin: 0 auto;
+            }
