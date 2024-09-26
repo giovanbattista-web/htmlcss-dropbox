@@ -1,16 +1,29 @@
+:root {
+	--blue: #0061ff;
+	--light-blue: #b4d0e7;
+	--black: #000000;
+	--white: #ffffff;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
   }
 
+  html {
+	font-family: 'Open Sans', sans-serif;
+}
+
 a {
 	color: currentColor;
 	text-decoration: none;
   }
 
-/* LAYOUT */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-           }
+  ul,ol {
+    list-style: none;
+        }
+
+  img {
+   max-width: 100%;
+      }
