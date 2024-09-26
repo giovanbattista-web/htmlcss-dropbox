@@ -22,24 +22,30 @@ a {
 
 ul,ol {
     list-style: none;
-        }
+      }
 
 img {
    max-width: 100%;
-      }
+    }
 
-/*LAYOUT/*
+/*LAYOUT*/
 .container-completo{
              max-width: 100%;
              margin: 0 auto;
-                }
+                    }
 
-.container {
+.container-classico{
             max-width:1200px;
             margin: 0 auto;
-            }
+                    }
 
 .container-piccolo{
             max-width: 1000px;
             margin: 0 auto;
-            }
+                  }
+
+.row {
+      display:flex;
+      flex-wrap:wrap;
+      }
+
