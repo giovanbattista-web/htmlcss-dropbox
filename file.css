@@ -1,51 +1,22 @@
-:root {
-	--blue: #0061ff;
-	--light-blue: #b4d0e7;
-	--black: #000000;
-	--white: #ffffff;
-      }
-
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-  }
+}
 
-  html {
+html {
 	font-family: 'Open Sans', sans-serif;
-       }
+}
 
 a {
 	color: currentColor;
 	text-decoration: none;
-  }
+}
 
 ul,ol {
-    list-style: none;
-      }
+	list-style: none;
+}
 
 img {
-   max-width: 100%;
-    }
-
-/*LAYOUT*/
-.container-completo{
-             max-width: 100%;
-             margin: 0 auto;
-                    }
-
-.container-classico{
-            max-width:1200px;
-            margin: 0 auto;
-                    }
-
-.container-piccolo{
-            max-width: 1000px;
-            margin: 0 auto;
-                  }
-
-.row {
-      display:flex;
-      flex-wrap:wrap;
-      }
-
+	max-width: 100%;
+}
